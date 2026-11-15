@@ -1,0 +1,14 @@
+{
+  "packets_processed": 22,
+  "alert_count": 1,
+  "alerts": [
+    {
+      "timestamp": "2026-11-15T20:18:15.981901+00:00",
+      "severity": "INFO",
+      "category": "ipp_http_request",
+      "source": "172.20.0.2",
+      "destination": "172.20.0.3",
+      "details": "Observed printer-related HTTP/IPP payload to TCP port 8631"
+    }
+  ]
+}

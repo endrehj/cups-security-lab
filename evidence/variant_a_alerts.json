@@ -1,0 +1,14 @@
+{
+  "packets_processed": 1,
+  "alert_count": 1,
+  "alerts": [
+    {
+      "timestamp": "2026-11-15T20:24:05.792104+00:00",
+      "severity": "HIGH",
+      "category": "unauthorized_advertisement",
+      "source": "172.20.0.4",
+      "destination": "172.20.0.2",
+      "details": "Untrusted advertiser announced http://172.20.0.3:8631/printers/FinalVariantA (Scapy Test Printer; Unauthorized Office; Virtual Printer; type=0)"
+    }
+  ]
+}

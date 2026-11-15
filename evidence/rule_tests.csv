@@ -1,0 +1,12 @@
+timestamp,severity,category,source,destination,details
+2023-11-14T22:13:20+00:00,HIGH,unauthorized_advertisement,172.20.0.2,172.20.0.4,Untrusted advertiser announced http://172.20.0.3:8631/printers/LabPrinter (Test Printer; University Lab; Virtual Printer; type=0)
+2023-11-14T22:13:21+00:00,HIGH,unauthorized_advertisement,172.20.0.2,172.20.0.4,Untrusted advertiser announced http://172.20.0.3:8631/printers/LabPrinter (Test Printer; University Lab; Virtual Printer; type=0)
+2023-11-14T22:13:22+00:00,MEDIUM,repeated_discovery,172.20.0.2,172.20.0.4,3 browse announcements within 10s
+2023-11-14T22:13:22+00:00,HIGH,unauthorized_advertisement,172.20.0.2,172.20.0.4,Untrusted advertiser announced http://172.20.0.3:8631/printers/LabPrinter (Test Printer; University Lab; Virtual Printer; type=0)
+2023-11-14T22:13:23+00:00,HIGH,unauthorized_advertisement,172.20.0.2,172.20.0.4,Untrusted advertiser announced http://172.20.0.3:8631/printers/LabPrinter (Test Printer; University Lab; Virtual Printer; type=0)
+2023-11-14T22:13:32+00:00,MEDIUM,repeated_discovery,172.20.0.2,172.20.0.4,3 browse announcements within 10s
+2023-11-14T22:13:32+00:00,HIGH,malformed_discovery,172.20.0.2,172.20.0.4,Unexpected legacy CUPS browse format: 'THIS IS NOT A VALID CUPS MESSAGE'
+2023-11-14T22:13:33+00:00,MEDIUM,repeated_discovery,172.20.0.2,172.20.0.4,3 browse announcements within 10s
+2023-11-14T22:13:33+00:00,MEDIUM,unexpected_field,172.20.0.2,172.20.0.4,"Unusual printer state 99; expected 3, 4, or 5"
+2023-11-14T22:13:33+00:00,HIGH,unauthorized_advertisement,172.20.0.2,172.20.0.4,Untrusted advertiser announced http://172.20.0.3:8631/printers/LabPrinter (Test Printer; University Lab; Virtual Printer; type=0)
+2023-11-14T22:13:34+00:00,HIGH,advertised_printer_callback,172.20.0.4,172.20.0.3,TCP SYN to advertised printer 172.20.0.3:8631; connection attempt only

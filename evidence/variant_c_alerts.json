@@ -1,0 +1,22 @@
+{
+  "packets_processed": 1,
+  "alert_count": 2,
+  "alerts": [
+    {
+      "timestamp": "2026-11-15T20:27:50.421064+00:00",
+      "severity": "MEDIUM",
+      "category": "unexpected_field",
+      "source": "172.20.0.4",
+      "destination": "172.20.0.2",
+      "details": "Unusual printer state 99; expected 3, 4, or 5"
+    },
+    {
+      "timestamp": "2026-11-15T20:27:50.421064+00:00",
+      "severity": "HIGH",
+      "category": "unauthorized_advertisement",
+      "source": "172.20.0.4",
+      "destination": "172.20.0.2",
+      "details": "Untrusted advertiser announced http://172.20.0.3:8631/printers/FinalVariantC (Scapy Test Printer; University Lab; Virtual Printer; type=0)"
+    }
+  ]
+}

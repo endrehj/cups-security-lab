@@ -1,0 +1,11 @@
+Mitigation flag:
+1
+CUPS scheduler:
+scheduler is running
+Processes:
+docker-init
+dbus-daemon
+avahi-daemon
+cupsd
+sh
+sleep

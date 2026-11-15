@@ -1,0 +1,93 @@
+[
+  {
+    "file": "pcap_files/mitigation_after_callback.pcap",
+    "packets": 0,
+    "bytes": 24,
+    "sha256": "e3f42e2687636327d7f18c9635173252505b4a838fa6829a755bab06c9c69749",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/mitigation_after_discovery.pcap",
+    "packets": 2,
+    "bytes": 394,
+    "sha256": "e076fda96fcef6d003c013a82f6de8c57dfa998164b97bdf654bd677934777b3",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/mitigation_before_callback.pcap",
+    "packets": 30,
+    "bytes": 5513,
+    "sha256": "7961617cef23ffe192fc2770b96448a9355d7881700c38ef7ece217807d063a4",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/mitigation_before_discovery.pcap",
+    "packets": 1,
+    "bytes": 196,
+    "sha256": "1a25b5b6555c54cf94369e8a128e57c34e2d9f6301bdaecd5e7a24e0472736e9",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/normal.pcap",
+    "packets": 22,
+    "bytes": 10708,
+    "sha256": "d94bcfb90e01f0bb7fc1bfa74daace4093d07e77eeb77186e645f436b186be9b",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/unauthorized_callback.pcap",
+    "packets": 30,
+    "bytes": 5477,
+    "sha256": "e32381d1c7c27e00d06768c0ac649d398eec6233d1b05ee4ffd3e8f1a66e9319",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/unauthorized_discovery.pcap",
+    "packets": 1,
+    "bytes": 192,
+    "sha256": "35cf3b94c4a75b81fc56d95c3c4b7b2d5a443637a24b0f2d18f7cc9206fb5d8a",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/variant_a_callback.pcap",
+    "packets": 30,
+    "bytes": 5441,
+    "sha256": "8b92b02bdf107802d3ff2c3b69309d61d8eeba14864bb2b1a1ee32ee1c1b87e8",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/variant_a_discovery.pcap",
+    "packets": 1,
+    "bytes": 193,
+    "sha256": "e7e4d89e58e85833f30ae0cd92dd9ae6bca1677d5e9c0d85f30a206cc97ff997",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/variant_b_callback.pcap",
+    "packets": 2,
+    "bytes": 196,
+    "sha256": "0c0b53598552b0701c7f667f85328c9db505d2f7ddd79c5880ac7e05e0e94b4f",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/variant_b_discovery.pcap",
+    "packets": 1,
+    "bytes": 188,
+    "sha256": "7e5a04596dbc685f1fcbb551d965efe300b113e9de925faef4cc9b6a0555400a",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/variant_c_callback.pcap",
+    "packets": 30,
+    "bytes": 5441,
+    "sha256": "86cc8e03b1db2d14e5bbaa8ae495f27ee56fce795773dccc2751d196f909d3de",
+    "integrity": "complete records"
+  },
+  {
+    "file": "pcap_files/variant_c_discovery.pcap",
+    "packets": 1,
+    "bytes": 189,
+    "sha256": "e5a49aba9bb794497bbed5e0a8baa0a5127cb02b4a8fd8404e20fb1d09df202a",
+    "integrity": "complete records"
+  }
+]

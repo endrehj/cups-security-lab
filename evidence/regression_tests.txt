@@ -1,0 +1,20 @@
+test_expired_advertisement (test_detector.CorrelationTests.test_expired_advertisement) ... [HIGH] unauthorized_advertisement: 192.0.2.1 -> 192.0.2.2 | Untrusted advertiser announced http://192.0.2.3:8631/printers/Test (Test; Lab; Model; type=0)
+ok
+test_fully_trusted_callback (test_detector.CorrelationTests.test_fully_trusted_callback) ... ok
+test_malformed_burst (test_detector.CorrelationTests.test_malformed_burst) ... [HIGH] malformed_discovery: 192.0.2.1 -> 192.0.2.2 | Unexpected legacy CUPS browse format: 'invalid'
+[HIGH] malformed_discovery: 192.0.2.1 -> 192.0.2.2 | Unexpected legacy CUPS browse format: 'invalid'
+[MEDIUM] repeated_discovery: 192.0.2.1 -> 192.0.2.2 | 3 browse announcements within 10s
+[HIGH] malformed_discovery: 192.0.2.1 -> 192.0.2.2 | Unexpected legacy CUPS browse format: 'invalid'
+ok
+test_offline_hostname_does_not_use_dns (test_detector.CorrelationTests.test_offline_hostname_does_not_use_dns) ... ok
+test_response_is_not_request (test_detector.CorrelationTests.test_response_is_not_request) ... ok
+test_untrusted_advertiser_callback_to_trusted_printer (test_detector.CorrelationTests.test_untrusted_advertiser_callback_to_trusted_printer) ... [HIGH] unauthorized_advertisement: 192.0.2.1 -> 192.0.2.2 | Untrusted advertiser announced http://192.0.2.3:8631/printers/Test (Test; Lab; Model; type=0)
+[HIGH] advertised_printer_callback: 192.0.2.2 -> 192.0.2.3 | TCP SYN to advertised printer 192.0.2.3:8631; connection attempt only
+ok
+test_wrong_recipient (test_detector.CorrelationTests.test_wrong_recipient) ... [HIGH] unauthorized_advertisement: 192.0.2.1 -> 192.0.2.2 | Untrusted advertiser announced http://192.0.2.3:8631/printers/Test (Test; Lab; Model; type=0)
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.017s
+
+OK

@@ -1,0 +1,22 @@
+{
+  "packets_processed": 5,
+  "alert_count": 2,
+  "alerts": [
+    {
+      "timestamp": "2026-11-15T17:58:27.192964+00:00",
+      "severity": "HIGH",
+      "category": "unauthorized_advertisement",
+      "source": "172.20.0.2",
+      "destination": "172.20.0.4",
+      "details": "Untrusted advertiser announced http://172.20.0.3:8631/printers/LabPrinter (Scapy Test Printer; University Lab; Virtual Printer; type=0)"
+    },
+    {
+      "timestamp": "2026-11-15T17:58:27.194356+00:00",
+      "severity": "HIGH",
+      "category": "advertised_printer_callback",
+      "source": "172.20.0.4",
+      "destination": "172.20.0.3",
+      "details": "TCP SYN to advertised printer 172.20.0.3:8631; connection attempt only"
+    }
+  ]
+}
