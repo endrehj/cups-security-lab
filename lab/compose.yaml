@@ -1,0 +1,31 @@
+services:
+  victim:
+    init: true
+    build:
+      context: .
+      dockerfile: victim.Dockerfile
+    environment:
+      DISABLE_CUPS_BROWSED: "${DISABLE_CUPS_BROWSED:-1}"
+    networks:
+      - lab
+  attacker:
+    build:
+      context: .
+      dockerfile: attacker.Dockerfile
+    networks:
+      - lab
+    cap_add:
+      - NET_RAW
+    volumes:
+      - ..:/workspace
+  printer:
+    init: true
+    build:
+      context: .
+      dockerfile: printer.Dockerfile
+    hostname: printer
+    networks:
+      - lab
+networks:
+  lab:
+    internal: true
